@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 110vh;
+    background-image: url(http://essentialhome.eu/inspirations/wp-content/uploads/2018/12/Baxter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.img{
+    font-size: 30px;
+    padding: 1vmax, 1vmax;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: green;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 370px;
+
+}
+.search1{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(12, 12, 12, 0.947);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(126, 240, 126);
+    margin-top: 13px;
+    color: white;
+    font-size: 20px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.search .btn{
+    text-decoration: none;
+    color: white;
+    transition: .3s  ease;
+}
+.btn:hover{
+    background-color: black;
+
+}
+
+    
+
+.content{
+    color: white;
+    position: absolute;
+    margin-top: 10vmax;
+}
+.content .para{
+    font-size: 20px;
+    padding: 5vh 3vw;
+    font-family: Arial;
+}
+.content h1{
+    font-size: 40px;
+    color: rgba(69, 222, 69, 0.564);
+    font-weight: 600;
+}
+.content .cont{
+    padding: 1.5vh 1.5vw;
+    border-radius: 2.5vmax;
+    color:white ;
+    background-color:rgba(69, 222, 69, 0.564);
+    margin-left: 2vw;
+    font-size: 20px;
+    border: none;
+    
+
+}
+.content .cont{
+    text-decoration: none;
+    color: white;
+    transition: .3s  ease;
+}
+.cont:hover{
+    background-color: black;
+
+}
+.content span{
+    color: white;
+    font-size: 60px;
+}
+.form{
+    width: 350px;
+    height: 600px;
+    background: rgb(30, 33, 41);
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 18px;
+
+
+
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(122, 198, 122);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 1vh;
+}
+/* .form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: aliceblue;
+}
+     */
+     .btnn{
+        width: 240px;
+        height: 40px;
+        background: white;
+        border: none;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        margin-top: 10px;
+        
+     }
+     .btnn:hover{
+        color: white;
+        background: rgb(104, 218, 104);
+     }
+    
+     .form input p{
+        color: white;
+     }
+     .form .log{
+        color: white;
+        font-size: 25px;
+        padding: 1vh 0;
+
+     }
+     .form .link{
+        color: white;
+        font-size: 25px;
+        padding: 2vh 0;
+     }
+     .page2{
+        height: 100vh;
+        width: 100vw ;
+        background-color: rgba(128, 128, 128, 0.671);
+     }
